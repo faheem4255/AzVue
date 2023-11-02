@@ -1,20 +1,18 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+
+
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!!!!!!!!!!!!!!!!!!!!" />
-    </div>
+    <ol>
+      <li><h1>coffee</h1></li>
+      <li><h1>Tea</h1></li>
+      <li><h1>Milk</h1></li>
+    </ol>
   </header>
 
-  <main>
-    <TheWelcome />
-  </main>
+
 </template>
 
 <style scoped>
